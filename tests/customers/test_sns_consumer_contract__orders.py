@@ -70,7 +70,7 @@ async def test_consume_order_created_event(
         "order_id": Term(Format.Regexes.uuid.value, "cc935616-e439-45a9-89ed-c6ef32bbc59e"),
         "order_total": Like(
             {
-                "units": "100",
+                "units": 100,
                 "nanos": 990000000,
             }
         ),

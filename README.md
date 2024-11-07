@@ -1,14 +1,14 @@
 # Consumer-Driven Contract Testing with Pact
 
-![Can I deploy Status](https://filipsnastins.pactflow.io/pacts/provider/service-customers--rest/consumer/frontend--rest/latest/badge.svg)
+`frontend--rest`: ![Can I deploy Status](https://filipsnastins.pactflow.io/pacticipants/frontend--rest/branches/main/latest-version/can-i-deploy/to-environment/production/badge)
 
-![Can I deploy Status](https://filipsnastins.pactflow.io/pacts/provider/service-customers--sns/consumer/service-orders--sns/latest/badge.svg)
+`service-orders--sns`: ![Can I deploy Status](https://filipsnastins.pactflow.io/pacticipants/service-orders--sns/branches/main/latest-version/can-i-deploy/to-environment/production/badge)
 
-![Can I deploy Status](https://filipsnastins.pactflow.io/pacts/provider/service-order-history--graphql/consumer/frontend--graphql/latest/badge.svg)
+`frontend--graphql`: ![Can I deploy Status](https://filipsnastins.pactflow.io/pacticipants/frontend--graphql/branches/main/latest-version/can-i-deploy/to-environment/production/badge)
 
-![Can I deploy Status](https://filipsnastins.pactflow.io/pacts/provider/service-orders--sns/consumer/service-customers--sns/latest/badge.svg)
+`service-customers--sns`: ![Can I deploy Status](https://filipsnastins.pactflow.io/pacticipants/service-customers--sns/branches/main/latest-version/can-i-deploy/to-environment/production/badge)
 
-![Can I deploy Status](https://filipsnastins.pactflow.io/pacts/provider/service-orders--sns/consumer/service-order-history--sns/latest/badge.svg)
+`service-order-history--sns`: ![Can I deploy Status](https://filipsnastins.pactflow.io/pacticipants/service-order-history--sns/branches/main/latest-version/can-i-deploy/to-environment/production/badge)
 
 An example of applying Consumer-Driven Contract Testing (CDC) for testing microservice compatibility in isolation.
 
@@ -261,7 +261,7 @@ Generated from Pact Broker's <http://localhost:9292/integrations> endpoint with
 - Install Pact CLI - [complete installation instruction on GitHub Releases page](https://github.com/pact-foundation/pact-ruby-standalone/releases).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/pact-foundation/pact-ruby-standalone/master/install.sh | PACT_CLI_VERSION=v2.0.10 bash
+curl -fsSL https://raw.githubusercontent.com/pact-foundation/pact-ruby-standalone/master/install.sh | PACT_CLI_VERSION=v2.4.16 bash
 ```
 
 - Install Python dependencies with [Poetry](https://python-poetry.org/).
